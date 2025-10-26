@@ -1,0 +1,32 @@
+# Claude Code File
+.Claude
+
+# Dependencies
+node_modules/
+
+# Environment Variables (ห้าม commit!)
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Production build
+dist/
+build/
